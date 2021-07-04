@@ -104,9 +104,17 @@ Generated_Code/
 
 # Backup & report files from converting an old project file to a newer
 # Visual Studio version. Backup files are not needed, because we have git ;-)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
 _UpgradeReport_Files/
 Backup*/
-.vscode/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
