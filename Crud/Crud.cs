@@ -7,5 +7,7 @@ namespace PruebaConocimiento.Entity {
 
         T update(T obj);
 
+        T find(string id);
+
     }
 }

@@ -10,11 +10,11 @@ namespace PruebaConocimiento.Controllers
     public class CrudController : Controller
     {
 
-        private UsersCrudImlp usersCrud;
+        private UsersCrudImp usersCrud;
         private readonly ILogger<CrudController> _logger;
 
         public CrudController(ILogger<CrudController> logger)  {
-            usersCrud = new UsersCrudImlp();
+            usersCrud = new UsersCrudImp();
             _logger = logger;
         }
 

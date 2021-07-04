@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PruebaConocimiento.Entity {
 
-    public class UsersCrudImlp : Crud<User> {
+    public class UsersCrudImp : Crud<User> {
 
         public static Dictionary<string, User> users = new Dictionary<string, User>();
 
@@ -26,7 +26,9 @@ namespace PruebaConocimiento.Entity {
             return null;
         }
     
-
+        public User find(string id) {
+            return null;
+        }
 
     }
 }
